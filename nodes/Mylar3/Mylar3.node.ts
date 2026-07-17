@@ -16,7 +16,7 @@ export class Mylar3 implements INodeType {
 	description: INodeTypeDescription = {
 		displayName: 'Mylar3',
 		name: 'mylar3',
-		icon: { light: 'file:mylar3.svg', dark: 'file:mylar3.svg' },
+		icon: { light: 'file:mylar3.svg', dark: 'file:mylar3.dark.svg' },
 		group: ['transform'],
 		version: 1,
 		subtitle: '={{$parameter["operation"]}}',
